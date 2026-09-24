@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# PHP / web app runtime files
+/tmp/
+*.log
+*.cache
+php_errors.log
+
+# Local config / secrets
+.env
+.env.*
+
+# Composer / vendor (if added later)
+/vendor/
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / temp artifacts
+*.tmp
+*.bak
+*.orig
+
+# Database dumps
+*.sql.gz
+*.dump
